@@ -1,0 +1,9 @@
+.subckt vnoise P1 P2
+Rf0 N002 0 62.439e18
+E§Vnf N003 P2 Vn1 0 {sqrt({flickerfreq})}
+B§In2 Vn1 0 I=V(Vn1) Laplace=sqrt(s/(2*pi*sqrt(-1)))
+Rw0 N001 0 62.439e18
+E§Vnw P1 N003 N001 0 {white}
+R1 Vn1 0 100G noiseless
+G§In1 0 Vn1 N002 0 {flicker}
+.ends

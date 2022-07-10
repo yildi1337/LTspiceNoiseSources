@@ -1,0 +1,9 @@
+.subckt inoise P1 P2
+G§Inw P2 P1 N001 0 {white}
+Rw0 N001 0 62.439e18
+Rf0 N002 0 62.439e18
+B§In2 Vn1 0 I=V(Vn1) Laplace=sqrt(s/(2*pi*sqrt(-1)))
+G§Inf P2 P1 Vn1 0 {sqrt({flickerfreq})}
+R1 Vn1 0 100G noiseless
+G§In1 0 Vn1 N002 0 {flicker}
+.ends
