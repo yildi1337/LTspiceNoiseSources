@@ -15,6 +15,7 @@ The **current noise source (In)** has three parameters where `white` defines the
 </p>
 
 # Examples
+The following two screenshots demonstrate the operation of an embedded voltage noise source (top) and an embedded current noise source (bottom).
 
 <p align="center">
   <img src="https://github.com/yildi1337/LTspiceNoiseSources/blob/main/examples/example_vnoise.png" />
