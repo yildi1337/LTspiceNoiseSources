@@ -24,3 +24,13 @@ The following two screenshots demonstrate the operation of an embedded voltage n
 <p align="center">
   <img src="https://github.com/yildi1337/LTspiceNoiseSources/blob/main/examples/example_inoise.png" />
 </p>
+
+# Usage
+To be able to use the noise sources, only the four files
+
+* vnoise.asy (symbol)
+* vnoise.sub (netlist)
+* inoise.asy (symbol)
+* inoise.sub (netlist)
+
+from the `lib` subdirectory have to be copied into the directory of the actual simulation. You can simply download the [examples.zip](https://github.com/yildi1337/LTspiceNoiseSources/blob/main/examples/examples.zip) archive which contains two simulation examples together with the required lib files.
