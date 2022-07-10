@@ -34,3 +34,14 @@ To be able to use the noise sources, only the four files
 * inoise.sub (netlist)
 
 from the `lib` subdirectory have to be copied into the directory of the actual simulation. You can simply download the [examples.zip](https://github.com/yildi1337/LTspiceNoiseSources/blob/main/examples/examples.zip) archive which contains two simulation examples together with the required lib files.
+
+# Implementation Details
+The actual implementation of the two noise sources can be seen in the two figures below. Further details can be found in a blog entry by [Axotron](http://axotron.se/blog/voltage-and-current-noise-sources-in-ltspice-noise-simulations/).
+
+<p align="center">
+  <img src="https://github.com/yildi1337/LTspiceNoiseSources/blob/main/lib/vnoise.png" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/yildi1337/LTspiceNoiseSources/blob/main/lib/inoise.png" />
+</p>
