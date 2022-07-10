@@ -38,10 +38,12 @@ from the `lib` subdirectory have to be copied into the directory of the actual s
 # Implementation Details
 The actual implementation of the two noise sources can be seen in the two figures below. Further details can be found in a blog entry by [Axotron](http://axotron.se/blog/voltage-and-current-noise-sources-in-ltspice-noise-simulations/).
 
+**Voltage noise source:**
 <p align="center">
   <img src="https://github.com/yildi1337/LTspiceNoiseSources/blob/main/lib/vnoise.png" />
 </p>
 
+**Current noise source:**
 <p align="center">
   <img src="https://github.com/yildi1337/LTspiceNoiseSources/blob/main/lib/inoise.png" />
 </p>
