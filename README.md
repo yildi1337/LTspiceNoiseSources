@@ -1,5 +1,5 @@
 # LTspiceNoiseSources
-White and Flicker Noise Sources for LTspice $`\sqrt{2}`$
+White and Flicker Noise Sources for LTspice $\sqrt{2}$
 
 # Introduction
 With the `.noise` command LTspice is able to perform noise analyses while considering e.g. thermal noise of resistors and noise of models provided by semiconductor manufacturers. However, LTspice's library does not contain models of simple voltage and current noise sources. Based on a blog entry from [Axotron](http://axotron.se/blog/voltage-and-current-noise-sources-in-ltspice-noise-simulations/), an extension for the LTspice library is offered here that includes an easy to include and easy to use voltage and current noise source. In both cases white noise ($`f^0`$) as well as flicker noise ($`f^{-1}`$) can be defined.
